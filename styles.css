@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #d4af37;
+}
+
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  object-fit: contain;
+}
